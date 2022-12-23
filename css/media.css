@@ -1,0 +1,196 @@
+@media screen and (max-width:1500px){
+    /* en-tw */
+    .regionArea,
+    .infoIcon,
+    .mfloat,
+    .dropSection,
+    .logoText,
+    .searchBlock,
+    .seasonWrap,
+    .secondWrap,
+    .momentWrap,
+    .locationWrap{
+        max-width: 1200px;
+    }
+    /* coffee */
+    .menuTitle,
+    .contentWrap{
+        max-width: 1200px;
+    }
+    .card{
+        width: 18.5em;
+    }
+    .proImage{
+        width: 14em;
+        height: 16em;
+    }
+    /* login */
+    .contentWrap{
+        max-width: 1200px;
+    }
+    /* cart */
+    .cartHead h3,
+    .cartWrapS{
+        max-width: 1200px;
+    }
+    .order{
+        width: 340px;
+    }
+}
+@media screen and (max-width:1300px){
+    .regionArea,
+    .infoIcon,
+    .mfloat,
+    .dropSection,
+    .logoText,
+    .searchBlock,
+    .seasonWrap,
+    .secondWrap,
+    .momentWrap,
+    .locationWrap,
+    .bottomWrap{
+        max-width: 1000px;
+      }
+    .seasonRight{
+        width: 20em;
+    }
+    .rightImg{
+        width: 26em;
+    }
+    .rightImg h3{
+        font-size: 40px;
+    }
+    .flowerBg,
+    .secondscroll ul{
+        height: 32em;
+    }
+    .secondscrollImg{
+        width: 14em;
+        height: 18em;
+    }
+    .momentImg{
+        width: 18em;
+    }
+    .square span:first-child,
+    .square span:nth-child(3){
+        width: 10em;
+        height: 16em;
+    }
+    .square span:nth-child(2){
+        width: 18em;
+        height: 22em;
+    }
+    .dropText{
+        padding-left: 140px;
+        font-size: 18px;
+    }
+    .photoLink{
+        transform: translateX(0);
+    }
+    .searchInput{
+        font-size: 16px;
+        top: 6.5em;
+    }
+    .searchSend{
+        font-size: 14px;
+        top: 110px;
+    }
+    .close{
+        font-size: 18px;
+    }
+    /* coffee */
+    .menuTitle,
+    .contentWrap{
+        max-width: 1000px;
+    }
+    .card{
+        width: 15.5em;
+    }
+    .proImage{
+        width: 11em;
+        height: 13em;
+    }
+    /* login */
+    .contentWrap{
+        max-width: 1000px;
+    }
+    .logContentBlock{
+        width: 800px;
+        height: 500px;
+    }
+    .loginFrom{
+        width: 550px;
+    }
+    .subContent{
+        width: 800px;
+        left: 540px;
+    }
+    .loginImg::before{
+        width: 800px;
+    }
+    .signUp{
+        transform: translate3d(-800px, 0, 0);
+    }
+    .logContentBlock.s-signup .subContent{
+        transform: translate3d(-540px, 0, 0);
+    }
+    .logContentBlock.s-signup .loginImg:before{
+        transform: translate3d(540px, 0, 0);
+    }
+    .logContentBlock.s-signup .signIn{
+        transform: translate3d(540px, 0, 0);
+    }
+    .loginInput input{
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .loginInput label{
+        font-size: 13px;
+    }
+    .loginFrom h2{
+        font-size: 28px;
+        padding: 1.2em 0 1em 0;
+    }
+    /* cart */
+    .cartTital{
+        width: 60%;
+    }
+    .cartHead h3,
+    .cartWrapS{
+        max-width: 1000px;
+    }
+    .cartHead h3{
+      font-size: 24px;
+    }
+    .order{
+        width: 300px;
+    }
+    .cartTital thead th{
+        font-size: 14px;
+    }
+    .cartImg{
+        width: 6em;
+        height: 8em;
+    }
+    .z input{
+        padding: 4px;
+        width: 62px;
+    }
+    .continue{
+        font-size: 12px;
+    }
+    .carContent td,
+    .orderFirst,
+    .checkout{
+        font-size: 14px;
+    }
+    .orderTop h3{
+        font-size: 16px;
+    }
+    .orderBottom{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:1024px){
+
+}

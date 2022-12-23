@@ -1,0 +1,36 @@
+.userNav,
+.bagNav{
+  width: 32px;
+}
+.likeNav{
+  width: 22px;
+  margin: 5px 0;
+}
+.searchNav{
+  width: 20px;
+  margin: 6px 4px 6px 0;
+}
+.navbar .searchNav,
+.navbar.sticky .search,
+.navbar .userNav,
+.navbar.sticky .user,
+.navbar .bagNav,
+.navbar.sticky .bag,
+.navbar .likeNav,
+.navbar.sticky .like{
+  display: none;
+}
+.navbar.sticky .searchNav,
+.navbar.sticky .userNav,
+.navbar.sticky .bagNav,
+.navbar.sticky .likeNav{
+  display: block;
+}
+.navbar.sticky .cartNum{
+    right: 0;
+    bottom: 0;
+}
+.navbar.sticky .icon{
+    align-items: center;
+    margin-top: 24px;
+}

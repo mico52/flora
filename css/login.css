@@ -1,0 +1,369 @@
+.content{
+    width: 100%;
+}
+.contentWrap{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+.accountDeep{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 160px 80px rgba(0, 0, 0, 0.55) inset;
+    position: fixed;
+    top: 55px;
+    left: 0;
+    z-index: -9;
+}
+.backGround{
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 2.4em;
+    z-index: -10;
+    width: 100%;
+    height: 100vh;
+}
+.backGround img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+}
+.accountRegion{
+    margin-top: 12px;
+}
+.accountLogo{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    color: rgb(226, 194, 125);
+}
+.accountItm{
+    float: right;
+    margin-top: -38px;
+}
+.accountItmWrap{
+    display: flex;
+}
+.accountClose,
+.accountlike{
+    width: 22px;
+    padding-bottom: 5px;
+}
+.accountbag{
+    width: 32px;
+}
+.ACNTtextClose,
+.ACNTtextLike,
+.ACNItextBag{
+    transition: .3s;
+    opacity: 0;
+    font-size: 12px;
+    color: #fff;
+}
+#close:hover > .ACNTtextClose,
+#like:hover > .ACNTtextLike,
+#bag:hover > .ACNItextBag{
+    opacity: 1;
+}
+#close,
+#like{
+    padding-top: 5px;
+}
+#like{
+    padding-right: 10px;
+    padding-left: 14px;
+}
+#close,
+#like,
+#bag{
+    text-align: center;
+}
+.login{
+    width: 100%;
+}
+.loginWrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logContentBlock{
+    margin: 0 auto 180px;
+    margin-top: 5em;
+    overflow: hidden;
+    position: relative;
+    width: 900px;
+    height: 550px;
+    background-color: #fff;
+}
+.loginFrom{
+    position: absolute;
+    width: 650px;
+    height: 100%;
+    transition: transform 1.2s ease-in-out;
+    padding-top: 2em;
+}
+.loginFrom h2{
+    padding: 1.2em 0 .6em 0;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+}
+.loginInput label{
+    display: block;
+    font-size: 14px;
+    color: #333;
+    padding-bottom: .6em;
+}
+.loginInput{
+    margin: 0 auto;
+    width: 400px;
+}
+.loginInput input{
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #9a9a9a;
+    outline-style: none;
+    text-align: center;
+    padding: 8px 12px;
+    margin-bottom: .6em;
+    color: #333;
+    box-sizing: border-box;
+}
+.forgot,
+.agree{
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    align-items: end;
+    color: #333;
+    font-size: 14px;
+}
+.forgot{
+    justify-content: space-between;
+}
+.agree a{
+    text-decoration: underline;
+}
+.register{
+    font-size: 36px !important;
+}
+.forgot a{
+    color: #333;
+}
+.forgotPass {
+    text-align: center;
+    margin-top: 6px;
+}
+.forgotPass a{
+    font-size: 14px;
+    color: #cfcfcf;
+}
+.submit{
+    background: rgb(15, 30, 18);
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: 38px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-top: 3em;
+}
+.subContent{
+    overflow: hidden;
+    position: absolute;
+    left: 640px;
+    top: 0;
+    width: 900px;
+    height: 100%;
+    padding-left: 260px;
+    background: #fff;
+    transition: transform 1.2s ease-in-out;
+}
+.loginImg{
+    overflow: hidden; 
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100%;
+}
+.loginImg::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 900px;
+    height: 100%;
+    background-image: url("../images/coffee-machine.jpg");
+    background-size: cover;
+    transition: transform 1.2s ease-in-out;
+}
+.loginImg::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.loginImgText{
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+    transition: transform 1.2s ease-in-out;
+    box-sizing: border-box;
+    font-size: 24px;
+    margin-top: 4.5em;
+    line-height: 1.6em;
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+}
+.loginImgBtn{
+    z-index: 2;
+    position: relative;
+    margin: 0 auto;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    width: 108px;
+    height: 42px;
+    top: 24em;
+    overflow: hidden;
+}
+.loginImgBtn::after{
+    content: "";
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+.loginImgBtn span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: transform 1.2s;
+}
+.logContentBlock.s-signup .subContent{
+    transform: translate3d(-640px, 0, 0);
+}
+.logContentBlock.s-signup .loginImg:before{
+    transform: translate3d(640px, 0, 0);
+}
+.logContentBlock.s-signup .loginImgText.moveUp{
+    transform: translateX(520px);
+}
+.loginImgText.moveIn{
+    transform: translateX(-520px);
+}
+.logContentBlock.s-signup .loginImgText.moveIn{
+    transform: translateX(0);
+    opacity: 1;
+}
+.loginImgBtn span.moveIn{
+    transform: translateY(-72px);
+    opacity: 0;
+}
+.logContentBlock.s-signup .loginImgBtn span.moveIn{
+    transform: translateY(0);
+    opacity: 1;
+}
+.logContentBlock.s-signup .loginImgBtn span.moveUp{
+    transform: translateY(72px);
+    opacity: 0;
+}
+.signIn{
+    transition-timing-function: ease-out;
+}
+.logContentBlock.s-signup .signIn{
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.2s;
+    transform: translate3d(640px, 0, 0);
+}
+.signUp{
+    transform: translate3d(-900px, 0, 0);
+}
+.logContentBlock.s-signup .signUp{
+    transform: translate3d(0, 0, 0);
+}
+.error{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    color: red;
+    border-radius: 10px;
+    margin-bottom: .8em;
+}
+.errorClose{
+    border: 0;
+    background-color: transparent;
+    font-size: 28px;
+    display: block;
+    color: red;
+    font-weight: bold;
+}
+.errormessage,
+.successmessage{
+    font-size: 12px;
+}
+.success{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    color: green;
+    border-radius: 10px;
+    margin-bottom: .8em;
+}
+.successClose{
+    border: 0;
+    background-color: transparent;
+    font-size: 22px;
+    display: block;
+    color: green;
+    font-weight: bold;
+}
+.successPM,
+.errorPM{
+    margin-top: 1em;
+}
+.submitRegister{
+    background: rgb(15, 30, 18);
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: 38px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-top: 2em;
+}

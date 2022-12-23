@@ -1,0 +1,90 @@
+.color{
+    color: #333;
+}
+.dropdown.active > .region + .dropdownMenu{
+    border: 1px solid ghostwhite;
+    box-shadow: 0 0 1px 1px rgb(236, 236, 242);
+}
+.textSearch,
+.textUser,
+.textLike,
+.textBag,
+.mfloat > li a{
+    color: #333;
+}
+.mfloat > li {
+    -webkit-filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0));
+}
+.menu{
+    border-bottom: 1px solid gainsboro;
+}
+.dropMenu{
+    background-color: #f6f5f1;
+    z-index: 10;
+}
+.menuT{
+    width: 100%;
+    margin-top: -25em;
+}
+.menuTitle{
+    font-size: 14px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* cart */
+.content{
+    width: 100%;
+    margin-top: 3em;
+}
+.contentWrap{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.cardContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+.card{
+    width: 21.5em;
+    margin-top: 3em;
+    /* border: red 1px solid; */
+    text-align: center;
+}
+.proImage{
+    margin: 0 auto;
+    width: 16em;
+    height: 18em;
+    /* border: #333 1px solid; */
+}
+.proinimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+}
+.cardName{
+    padding: 1.2em 0;
+}
+.cardName h4{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: .8em;
+}
+.cardName h6{
+    font-size: 15px;
+    font-family: 'Lora', serif;
+}
+.cardBtn{
+    width: 70%;
+    height: 2.2em;
+    background-color: rgb(190 , 172, 112);
+    border: 0;
+    border-radius: 1px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
