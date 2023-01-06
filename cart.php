@@ -366,7 +366,7 @@
         var a = document.getElementById("regionShow").innerText;
         if(a === ''){
             var country = 'Taiwan';
-            document.getElementById("regionShow").innerHTML = "<img data-dropdown-button src='images/" + country +  ".png' width='20' height='20'>" + '&emsp;' + country + '&ensp;' + "<i data-dropdown-button class='fa-solid fa-angle-down' style=font-size:13px;padding-top:2px></i>";
+            document.getElementById("regionShow").innerHTML = "<img data-dropdown-button src='images/" + country +  ".png' width='20' height='20'>" + '&emsp;' + country + '&ensp;' + "<i data-dropdown-button class='fa-solid fa-angle-down' style=font-size:13px;padding-top:2px>&and;</i>";
         }
         })
         $(document).on('click', '.regionBtn', function(){
